@@ -10,13 +10,13 @@
 
 @implementation Photo
 
-@synthesize thumbnailURL = _thumbnailURL, date = _date, thumbnail = _thumbnail;
+@synthesize thumbnailString = _thumbnailString, date = _date, thumbnail = _thumbnail;
 
-- (id)initWithThumbnailURL:(NSURL *)thumbnailURL date:(NSDate *)date
+- (id)initWithThumbnailURL:(NSString *)thumbnailString date:(NSDate *)date
 {
     self = [super init];
     if (self) {
-        _thumbnailURL = thumbnailURL;
+        _thumbnailString = thumbnailString;
         _date = date;
     }
     return self;
@@ -24,7 +24,7 @@
 
 + (Photo *)photoWithURLString:(NSString *)urlString date:(NSDate *)date
 {
-    return [[Photo alloc] initWithThumbnailURL:[NSURL URLWithString:urlString] date:date];
+    return [[Photo alloc] initWithThumbnailURL:urlString date:date];
 }
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "REPhotoThumbnailView.h"
-#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
 
 @interface ThumbnailView : REPhotoThumbnailView {
     UIImageView *imageView;

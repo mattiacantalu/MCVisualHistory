@@ -12,8 +12,8 @@
 
 - (void)setPhoto:(NSObject <REPhotoObjectProtocol> *)photo
 {
-    if (photo.thumbnailURL) {
-        [imageView setImageWithURL:photo.thumbnailURL placeholderImage:[UIImage imageNamed:@"No_image_available.png"] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    if (photo.thumbnailString) {
+        [imageView setImage:[UIImage imageNamed:photo.thumbnailString]];
     } else {
         [imageView setImage:photo.thumbnail];
     }

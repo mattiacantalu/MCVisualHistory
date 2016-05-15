@@ -258,7 +258,7 @@
         }];
     }
     else {
-        UIAlertView *msg = [[UIAlertView alloc] initWithTitle:@"TEST" message:photo.thumbnailURL.absoluteString delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        UIAlertView *msg = [[UIAlertView alloc] initWithTitle:@"TEST" message:photo.thumbnailString delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
         [msg show];
     }
 }

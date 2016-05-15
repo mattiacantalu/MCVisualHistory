@@ -29,25 +29,25 @@
 - (NSMutableArray *)prepareDatasource
 {
     NSMutableArray *datasource = [[NSMutableArray alloc] init];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage6.s3.amazonaws.com/5acf0f48d5ac11e1a3461231381315e1_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"02/01/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage0.s3.amazonaws.com/622c57d4ced411e1ae7122000a1e86bb_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"01/02/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage7.s3.amazonaws.com/1a8f3db4b87811e1ab011231381052c0_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"04/03/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage6.s3.amazonaws.com/c0039594b74011e181bd12313817987b_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"05/25/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage10.s3.amazonaws.com/b9e61198b69411e180d51231380fcd7e_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"07/25/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage3.s3.amazonaws.com/334b13f4b5ae11e1abd612313810100a_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"05/25/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage2.s3.amazonaws.com/9ab3ff16b59911e1b00112313800c5e4_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"05/25/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage10.s3.amazonaws.com/e02206c8b59511e1be6a12313820455d_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"07/25/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage9.s3.amazonaws.com/3b9c9182b53a11e1be6a12313820455d_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"07/24/2012"]]];
-    [datasource addObject:[Photo photoWithURLString:@"http://distilleryimage6.s3.amazonaws.com/93f1fab2b4b711e192e91231381b3d7a_5.jpg"
+    [datasource addObject:[Photo photoWithURLString:@"No_image_available.png"
                                                date:[self dateFromString:@"07/25/2012"]]];
     return datasource;
 }

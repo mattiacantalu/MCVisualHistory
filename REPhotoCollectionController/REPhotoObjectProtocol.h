@@ -31,9 +31,9 @@
 @property (nonatomic, strong) NSDate *date;
 
 @optional
-@property (nonatomic, strong) NSURL *thumbnailURL;
+@property (nonatomic, strong) NSString* thumbnailString;
 @property (nonatomic, strong) UIImage *thumbnail;
 
-- (id)initWithThumbnailURL:(NSURL *)thumbnailURL date:(NSDate *)date;
+- (id)initWithThumbnailURL:(NSString *)thumbnailString date:(NSDate *)date;
 
 @end

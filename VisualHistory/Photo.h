@@ -12,11 +12,11 @@
 
 @interface Photo : NSObject <REPhotoObjectProtocol>
 
-@property (nonatomic, strong) NSURL *thumbnailURL;
+@property (nonatomic, strong) NSString *thumbnailString;
 @property (nonatomic, strong) UIImage *thumbnail;
 @property (nonatomic, strong) NSDate *date;
 
-- (id)initWithThumbnailURL:(NSURL *)thumbnailURL date:(NSDate *)date;
+- (id)initWithThumbnailURL:(NSString *)thumbnailString date:(NSDate *)date;
 + (Photo *)photoWithURLString:(NSString *)urlString date:(NSDate *)date;
 
 @end
